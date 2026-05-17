@@ -111,7 +111,6 @@ def source_type_pie(df: pd.DataFrame) -> go.Figure:
     )
     fig.update_layout(
         **_BASE_LAYOUT,
-        showlegend=False,
         height=210,
     )
     return fig
